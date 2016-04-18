@@ -9,8 +9,7 @@
 title: Frances Conley-Wood
 email: fconleywood@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Full Stack Web Developer. I have an eye for design,
-  a knack for building, and a passion for learning.
+  Toronto based full stack web developer. Graduate from Bitmaker with a background in graphic design. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://fconleywood.github.io" # the base hostname & protocol for your site
 twitter_username: fconleywood

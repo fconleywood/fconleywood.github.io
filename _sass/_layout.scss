@@ -92,8 +92,6 @@
     }
 }
 
-
-
 /**
  * Site footer
  */
@@ -163,17 +161,19 @@
     }
 }
 
-
-
 /**
  * Page content
  */
+
 .page-content {
     padding: $spacing-unit 0;
 }
 
 .page-heading {
-    font-size: 20px;  
+    font-size: 30px;
+    font-weight: 300;
+    color: $grey-color-dark;
+    text-align: center;
 }
 
 .post-list {
@@ -191,11 +191,16 @@
 }
 
 .post-link {
+    text-align: center;
     display: block;
+    color: darken($dark-green, 10%);
     font-size: 24px;
+    float: left;
+    margin: 20px 68px 50px 68px;
+    padding: 15px;
+    background-color: $white-color;
+    border-radius: 8px;
 }
-
-
 
 /**
  * Posts
@@ -240,4 +245,20 @@
             font-size: 18px;
         }
     }
+}
+.about {
+  min-height: 200px;
+  width: 100%;
+  text-align: center;
+  background-color: $dark-green;
+  border-radius: 5px;
+  overflow: auto;
+  margin-bottom: 70px;
+  margin-top: 20px;
+    #index-bio {
+      position: relative;
+      color: $white-color;
+      font-size: 24px;
+      margin: 30px 50px;
+  }
 }

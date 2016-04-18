@@ -1,23 +1,24 @@
 ---
 layout: default
 ---
+<div class="about">
+
+  <div id="index-bio">I have an eye for design,
+a knack for building, and a passion for learning.
+Web development (in all its glory) empowers me to
+express my creative vision in a socially relevant and
+ever expanding community.</div>
+
+</div>
 
 <div class="home">
 
-  <div class="about">
-
-  </div>
-
-  <h2 class="page-heading">Projects</h2>
-
+  <h2 class="page-heading">PROJECTS</h2>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-
-        <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
       </li>
     {% endfor %}
   </ul>
